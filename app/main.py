@@ -27,7 +27,7 @@ class CustomerInput(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Churn Prediction API", "status": "running"}
+    return {"message": "Churn Prediction API", "status": "active"}
 
 @app.get("/health")
 def health_check():
