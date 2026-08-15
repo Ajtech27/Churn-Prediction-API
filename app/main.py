@@ -11,8 +11,8 @@ app = FastAPI(
 )
 
 # Load model and scaler
-model = joblib.load("churn_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("Model/churn_model.pkl")
+scaler = joblib.load("Model/scaler.pkl")
 
 class CustomerInput(BaseModel):
     gender: int                # 0=Female, 1=Male
