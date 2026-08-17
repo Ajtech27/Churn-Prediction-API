@@ -57,6 +57,19 @@ uvicorn app.main:app --reload
   "risk_level": "Low"
 }
 ```
+
+## 🐳 Docker
+### Prerequisites
+Docker Desktop installed
+
+
+### Build the Docker Image
+docker build -t churn-prediction-api .
+
+### Run the Container
+docker run -p 8000:8000 churn-predicttion-api
+
+
 ## 👨‍💻 Author
 Joseph Afolayan
 [Gmail](josephafolay012@gmail.com) | [LinkedIn](linkedin.com/in/afolayan-joseph)
