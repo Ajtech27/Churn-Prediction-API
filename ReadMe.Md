@@ -64,11 +64,14 @@ Docker Desktop installed
 
 
 ### Build the Docker Image
+```bash
 docker build -t churn-prediction-api .
+```
 
 ### Run the Container
+```bash
 docker run -p 8000:8000 churn-predicttion-api
-
+```
 
 ## 👨‍💻 Author
 Joseph Afolayan
